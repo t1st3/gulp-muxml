@@ -1,0 +1,61 @@
+{
+  "name": "gulp-muxml",
+  "version": "0.1.0",
+  "description": "An XML parsing and formatting plugin for gulp",
+  "license": "MIT",
+  "repository": "t1st3/gulp-muxml",
+  "keywords": [
+    "gulp-plugin",
+    "xml",
+    "parse",
+    "format",
+    "minify",
+    "prettify",
+    "strip",
+    "filter",
+    "stream",
+    "transform",
+    "through"
+  ],
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "bugs": {
+    "url": "https://github.com/t1st3/gulp-muxml/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "pretest": "xo index.js test.js",
+    "test": "mocha",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov mocha",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "into-stream": "^2.0.1",
+    "muxml": "^0.1.2",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "mocha": "^3.0.1",
+    "nyc": "^6.4.0",
+    "vinyl": "^1.1.1",
+    "xo": "^0.15.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}
