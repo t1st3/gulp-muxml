@@ -37,10 +37,11 @@ Supports [streaming mode](https://github.com/gulpjs/gulp/blob/master/docs/API.md
 See [`muxml`'s options](https://github.com/t1st3/muxml#options), which are all supported.
 
 
-## Relevant
+## Related
 
 * [muxml](https://github.com/t1st3/muxml) | API for muxml
 * [muxml-cli](https://github.com/t1st3/muxml-cli) | CLI for muxml
+* [grunt-muxml](https://github.com/t1st3/grunt-muxml) | muxml as a [`Grunt`](http://gruntjs.com/) plugin
 
 
 ## License
