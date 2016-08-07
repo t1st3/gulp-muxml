@@ -4,6 +4,8 @@
 
 Thin wrapper around [`muxml`](https://github.com/t1st3/muxml) to make it a `gulp` plugin.
 
+This plugin supports [streaming](https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/dealing-with-streams.md) and [buffers](https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/using-buffers.md).
+
 
 ## Install
 
