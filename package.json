@@ -45,9 +45,9 @@
   "devDependencies": {
     "coveralls": "^2.11.9",
     "mocha": "^3.0.1",
-    "nyc": "^6.4.0",
+    "nyc": "^7.1.0",
     "vinyl": "^1.1.1",
-    "xo": "^0.15.0"
+    "xo": "^0.16.0"
   },
   "nyc": {
     "reporter": [
