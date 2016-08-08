@@ -1,10 +1,10 @@
 # gulp-muxml [![Build Status Travis](https://travis-ci.org/t1st3/gulp-muxml.svg?branch=master)](https://travis-ci.org/t1st3/gulp-muxml) [![Coverage Status](https://coveralls.io/repos/github/t1st3/gulp-muxml/badge.svg?branch=master)](https://coveralls.io/github/t1st3/gulp-muxml?branch=master)
 
-> An XML parsing and formatting plugin for gulp
+> An XML parsing and formatting plugin for [`gulp`](http://gulpjs.com/)
 
-Thin wrapper around [`muxml`](https://github.com/t1st3/muxml) to make it a `gulp` plugin.
+Thin wrapper around [`muxml`](https://github.com/t1st3/muxml) to make it a gulp plugin.
 
-This plugin supports [streaming](https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/dealing-with-streams.md) and [buffers](https://github.com/gulpjs/gulp/blob/master/docs/writing-a-plugin/using-buffers.md).
+Also available as a [Grunt](https://github.com/t1st3/grunt-muxml) / [Broccoli](https://github.com/t1st3/broccoli-muxml) plugin.
 
 
 ## Install
@@ -44,6 +44,7 @@ See [`muxml`'s options](https://github.com/t1st3/muxml#options), which are all s
 * [muxml](https://github.com/t1st3/muxml) | API for muxml
 * [muxml-cli](https://github.com/t1st3/muxml-cli) | CLI for muxml
 * [grunt-muxml](https://github.com/t1st3/grunt-muxml) | muxml as a [`Grunt`](http://gruntjs.com/) plugin
+* [broccoli-muxml](https://github.com/t1st3/broccoli-muxml) | this module as a [`Broccoli`](http://broccolijs.com/) plugin
 
 
 ## License
