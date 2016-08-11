@@ -1,22 +1,22 @@
 'use strict';
 
-var concatStream = require('concat-stream');
-var muxml = require('muxml').default;
-var intoStream = require('into-stream');
-var through = require('through2');
+const concatStream = require('concat-stream');
+const muxml = require('muxml').default;
+const intoStream = require('into-stream');
+const through = require('through2');
 
-var self = {
+const self = {
 	opts: {}
 };
 
-var transfromStream = function (file, enc, cb) {
+const transfromStream = function (file, enc, cb) {
 	if (file.isNull()) {
 		return cb(null, file);
 	}
 
 	if (file.isBuffer()) {
-		var stream = intoStream(file.contents).pipe(muxml(self.opts));
-		stream.pipe(concatStream(function (data) {
+		const stream = intoStream(file.contents).pipe(muxml(self.opts));
+		stream.pipe(concatStream(data => {
 			file.contents = data;
 			cb(null, file);
 		}));
@@ -29,7 +29,7 @@ var transfromStream = function (file, enc, cb) {
 	}
 };
 
-var endStream = function (cb) {
+const endStream = function (cb) {
 	cb();
 };
 

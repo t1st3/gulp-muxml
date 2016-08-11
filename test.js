@@ -2,17 +2,17 @@
 
 'use strict';
 
-var strictEqual = require('assert').strictEqual;
-var fs = require('fs');
-var concatStream = require('concat-stream');
-var File = require('vinyl');
-var gulpMuxml = require('./');
+const strictEqual = require('assert').strictEqual;
+const fs = require('fs');
+const concatStream = require('concat-stream');
+const File = require('vinyl');
+const gulpMuxml = require('./');
 
-describe('gulpMuxml', function () {
-	it('pipes correctly when file.contents is a buffer', function (done) {
-		var expected = '<a id="aa"><b><c>d</c></b></a>';
-		var stream = gulpMuxml({pretty: false});
-		stream.on('data', function (file) {
+describe('gulpMuxml', () => {
+	it('pipes correctly when file.contents is a buffer', done => {
+		const expected = '<a id="aa"><b><c>d</c></b></a>';
+		const stream = gulpMuxml({pretty: false});
+		stream.on('data', file => {
 			strictEqual(file.contents.toString(), expected);
 			done();
 		});
@@ -25,11 +25,11 @@ describe('gulpMuxml', function () {
 		stream.end();
 	});
 
-	it('pipes correctly when file.contents is a stream', function (done) {
-		var expected = '<a id="aa"><b><c>d</c></b></a>';
-		var stream = gulpMuxml({pretty: false});
-		stream.on('data', function (file) {
-			file.contents.pipe(concatStream(function (data) {
+	it('pipes correctly when file.contents is a stream', done => {
+		const expected = '<a id="aa"><b><c>d</c></b></a>';
+		const stream = gulpMuxml({pretty: false});
+		stream.on('data', file => {
+			file.contents.pipe(concatStream(data => {
 				strictEqual(data.toString(), expected);
 				done();
 			}));
@@ -43,9 +43,9 @@ describe('gulpMuxml', function () {
 		stream.end();
 	});
 
-	it('pipes correctly when file.contents is null', function (done) {
-		var stream = gulpMuxml({pretty: false});
-		stream.on('data', function (file) {
+	it('pipes correctly when file.contents is null', done => {
+		const stream = gulpMuxml({pretty: false});
+		stream.on('data', file => {
 			strictEqual(file.contents, null);
 			done();
 		});

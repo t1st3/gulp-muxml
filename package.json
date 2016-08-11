@@ -4,6 +4,24 @@
   "description": "An XML parsing and formatting plugin for gulp",
   "license": "MIT",
   "repository": "t1st3/gulp-muxml",
+  "author": {
+    "name": "t1st3",
+    "email": "contact@tiste.org",
+    "url": "tiste.org"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo index.js test.js && mocha",
+    "coverage": "nyc --reporter=lcov --reporter=text-lcov mocha",
+    "precoveralls": "npm run coverage",
+    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "gulpplugin",
     "xml",
@@ -17,25 +35,6 @@
     "transform",
     "through"
   ],
-  "author": {
-    "name": "t1st3",
-    "email": "contact@tiste.org",
-    "url": "tiste.org"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "pretest": "xo index.js test.js",
-    "test": "mocha",
-    "coverage": "nyc --reporter=lcov --reporter=text-lcov mocha",
-    "precoveralls": "npm run coverage",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
-  },
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
   "dependencies": {
     "concat-stream": "^1.5.1",
     "into-stream": "^2.0.1",
@@ -47,12 +46,20 @@
     "mocha": "^3.0.1",
     "nyc": "^7.1.0",
     "vinyl": "^1.1.1",
-    "xo": "^0.16.0"
+    "xo": "*"
+  },
+  "clinton": {
+    "rules": {
+      "ava": false
+    }
   },
   "nyc": {
     "reporter": [
       "lcov",
       "text"
     ]
+  },
+  "xo": {
+    "esnext": true
   }
 }
