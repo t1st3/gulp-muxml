@@ -36,16 +36,16 @@
     "through"
   ],
   "dependencies": {
-    "concat-stream": "^1.5.1",
+    "concat-stream": "^1.5.2",
     "into-stream": "^3.0.0",
-    "muxml": "^0.2.0",
+    "muxml": "^0.2.2",
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "coveralls": "^2.11.9",
-    "mocha": "^3.0.1",
-    "nyc": "^8.1.0",
-    "vinyl": "^1.1.1",
+    "coveralls": "^2.11.14",
+    "mocha": "^3.0.2",
+    "nyc": "^8.3.0",
+    "vinyl": "^1.2.0",
     "xo": "*"
   },
   "clinton": {
