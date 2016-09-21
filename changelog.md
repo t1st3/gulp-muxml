@@ -1,6 +1,18 @@
 ## Change Log
 
-### 0.1.1 (2016/08/07 22:21 +00:00)
+### 0.1.2 (2016/09/21 09:49 +00:00)
+- [8c82a5b](https://github.com/t1st3/gulp-muxml/commit/8c82a5bbf6b98db31be55fbc9203e07a614cd1cb) chore(package): bump deps (@t1st3)
+- [#5](https://github.com/t1st3/gulp-muxml/pull/5) Update into-stream to version 3.0.0 🚀 (@t1st3)
+- [19e8b41](https://github.com/t1st3/gulp-muxml/commit/19e8b41102327b5bdaa5db1208c0444ab3341daf) chore(package): update into-stream to version 3.0.0 (@greenkeeperio-bot)
+- [#4](https://github.com/t1st3/gulp-muxml/pull/4) Update nyc to version 8.1.0 🚀 (@t1st3)
+- [1396be6](https://github.com/t1st3/gulp-muxml/commit/1396be644a1b23c58eab428b0faeac7ebb7b943b) chore(package): update nyc to version 8.1.0 (@greenkeeperio-bot)
+- [#2](https://github.com/t1st3/gulp-muxml/pull/2) Update muxml to version 0.2.0 🚀 (@t1st3)
+- [a76b431](https://github.com/t1st3/gulp-muxml/commit/a76b4315d244dc9dca291ee94acb1e9dae08bc08) refactor: lint project with clinton / use ES2016 (@t1st3)
+- [4cff3ed](https://github.com/t1st3/gulp-muxml/commit/4cff3ed8d93444745f0822f95eeae42b63edd4eb) chore(package): update muxml to version 0.2.0 (@greenkeeperio-bot)
+- [c04c094](https://github.com/t1st3/gulp-muxml/commit/c04c094c0426ff4d8ae8e73712691f008a641185) docs(readme): better docs (@t1st3)
+
+### 0.1.1 (2016/08/07 22:22 +00:00)
+- [0a46ebf](https://github.com/t1st3/gulp-muxml/commit/0a46ebfe00fe460838ee344382a70e0b1c3e9f56) chore: v0.1.1 (@t1st3)
 - [01dd6c0](https://github.com/t1st3/gulp-muxml/commit/01dd6c0a1c4a774fcab39b04daee0e0c5bdd1eeb) fix(package): availability on gulp plugin registry (@t1st3)
 - [75cfe3e](https://github.com/t1st3/gulp-muxml/commit/75cfe3e6fa6661baedb75c1188d1925093604f2f) docs(readme): document stream/buffer support (@t1st3)
 - [4c52e26](https://github.com/t1st3/gulp-muxml/commit/4c52e26e80bac5546688458937f10456b5a64d49) Merge branch 'master' of github.com:t1st3/gulp-muxml (@t1st3)
