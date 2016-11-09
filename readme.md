@@ -44,7 +44,6 @@ See [`muxml`'s options](https://github.com/t1st3/muxml#options), which are all s
 * [muxml](https://github.com/t1st3/muxml) | API for muxml
 * [muxml-cli](https://github.com/t1st3/muxml-cli) | CLI for muxml
 * [grunt-muxml](https://github.com/t1st3/grunt-muxml) | muxml as a [`Grunt`](http://gruntjs.com/) plugin
-* [broccoli-muxml](https://github.com/t1st3/broccoli-muxml) | this module as a [`Broccoli`](http://broccolijs.com/) plugin
 
 
 ## License
