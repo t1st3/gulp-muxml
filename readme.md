@@ -4,7 +4,7 @@
 
 Thin wrapper around [`muxml`](https://github.com/t1st3/muxml) to make it a gulp plugin.
 
-Also available as a [Grunt](https://github.com/t1st3/grunt-muxml) / [Broccoli](https://github.com/t1st3/broccoli-muxml) plugin.
+Also available as a [Grunt plugin](https://github.com/t1st3/grunt-muxml).
 
 
 ## Install
