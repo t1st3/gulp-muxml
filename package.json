@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.14",
-    "mocha": "^3.0.2",
+    "mocha": "^3.4.0",
     "nyc": "^10.0.0",
     "vinyl": "^2.0.0",
     "xo": "*"
