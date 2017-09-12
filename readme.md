@@ -48,4 +48,4 @@ See [`muxml`'s options](https://github.com/t1st3/muxml#options), which are all s
 
 ## License
 
-MIT © [t1st3](http://tiste.org)
+MIT © [t1st3](https://t1st3.com)
