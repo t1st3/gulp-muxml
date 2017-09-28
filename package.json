@@ -42,7 +42,7 @@
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "coveralls": "^2.11.14",
+    "coveralls": "^3.0.0",
     "mocha": "^3.4.0",
     "nyc": "^11.0.0",
     "vinyl": "^2.0.0",
