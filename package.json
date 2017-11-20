@@ -16,8 +16,8 @@
   "scripts": {
     "test": "xo index.js test.js && mocha",
     "coverage": "nyc --reporter=lcov --reporter=text-lcov mocha",
-    "precoveralls": "npm run coverage",
-    "coveralls": "cat coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "precodecov": "npm run coverage",
+    "codecov": "cat coverage/lcov.info | ./node_modules/.bin/codecov"
   },
   "files": [
     "index.js"
@@ -42,7 +42,7 @@
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
+    "codecov": "^3.0.0",
     "mocha": "^4.0.0",
     "nyc": "^11.0.0",
     "vinyl": "^2.0.0",
