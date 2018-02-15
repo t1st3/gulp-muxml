@@ -6,7 +6,7 @@ const strictEqual = require('assert').strictEqual;
 const fs = require('fs');
 const concatStream = require('concat-stream');
 const File = require('vinyl');
-const gulpMuxml = require('./');
+const gulpMuxml = require('.');
 
 describe('gulpMuxml', () => {
 	it('pipes correctly when file.contents is a buffer', done => {
