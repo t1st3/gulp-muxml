@@ -2,7 +2,7 @@
 
 'use strict';
 
-const strictEqual = require('assert').strictEqual;
+const {strictEqual} = require('assert');
 const fs = require('fs');
 const concatStream = require('concat-stream');
 const File = require('vinyl');
