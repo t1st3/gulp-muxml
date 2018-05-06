@@ -36,17 +36,17 @@
     "through"
   ],
   "dependencies": {
-    "concat-stream": "^1.5.2",
+    "concat-stream": "^1.6.2",
     "into-stream": "^3.0.0",
-    "muxml": "^0.2.2",
+    "muxml": "^1.0.0",
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "codecov": "^3.0.0",
-    "mocha": "^5.0.0",
-    "nyc": "^11.0.0",
+    "codecov": "^3.0.1",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1",
     "vinyl": "^2.0.0",
-    "xo": "0.20.3"
+    "xo": "0.21.0"
   },
   "clinton": {
     "rules": {
