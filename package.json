@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "concat-stream": "^1.6.2",
-    "into-stream": "^3.0.0",
+    "into-stream": "^4.0.0",
     "muxml": "^1.0.0",
     "through2": "^2.0.1"
   },
