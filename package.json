@@ -37,8 +37,8 @@
   ],
   "dependencies": {
     "concat-stream": "^2.0.0",
-    "into-stream": "^4.0.0",
-    "muxml": "^1.0.0",
+    "into-stream": "^5.0.1",
+    "muxml": "^2.0.1",
     "through2": "^3.0.0"
   },
   "devDependencies": {
@@ -58,8 +58,5 @@
       "lcov",
       "text"
     ]
-  },
-  "xo": {
-    "esnext": true
   }
 }

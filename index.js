@@ -1,7 +1,7 @@
 'use strict';
 
 const concatStream = require('concat-stream');
-const muxml = require('muxml').default;
+const muxml = require('muxml');
 const intoStream = require('into-stream');
 const through = require('through2');
 
